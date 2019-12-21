@@ -121,18 +121,18 @@ setTimeout(function(){firstimage.style.display = 'none';secondimage.style.displa
 hide_secondimage = function(){
 secondimage = document.getElementById('second-image');
 thirdimage = document.getElementById('third-image');
-setTimeout(function(){secondimage.style.display = 'none';thirdimage.style.display = 'block';},7500);
-}
+setTimeout(function(){secondimage.style.display = 'none';thirdimage.style.display = 'block';},8500);
+
 
 hide_thirdimage = function(){
 thirdimage = document.getElementById('third-image');
 firstimage = document.getElementById('first-image');
-setTimeout(function(){thirdimage.style.display = 'none';firstimage.style.display = 'block'},11000);
+setTimeout(function(){thirdimage.style.display = 'none';firstimage.style.display = 'block'},13000);
 }
 
 begin_image_animation = function(){
  begin_animation();
- window.beginanimation = setInterval(begin_animation, 12000);
+ window.beginanimation = setInterval(begin_animation, 13500);
 };
 begin_image_animation();
 </script>
